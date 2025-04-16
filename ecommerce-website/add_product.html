@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+</head>
+<body>
+    <header class="bg-gray-800 text-white p-4">
+        <h1 class="text-2xl">Add Product</h1>
+    </header>
+    <main class="p-4">
+        <form class="max-w-md mx-auto">
+            <div class="mb-4">
+                <label for="product_name" class="block text-sm font-medium text-gray-700">Product Name</label>
+                <input type="text" id="product_name" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required>
+            </div>
+            <div class="mb-4">
+                <label for="product_description" class="block text-sm font-medium text-gray-700">Product Description</label>
+                <textarea id="product_description" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required></textarea>
+            </div>
+            <div class="mb-4">
+                <label for="product_price" class="block text-sm font-medium text-gray-700">Product Price</label>
+                <input type="number" id="product_price" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded-md">Add Product</button>
+        </form>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2023 E-commerce Website</p>
+    </footer>
+</body>
+</html>
